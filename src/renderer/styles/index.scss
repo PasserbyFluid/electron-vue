@@ -1,0 +1,80 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div:focus{
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main{
+  min-height: 100%
+}
+
+.app-container {
+  padding: 20px;
+}
+.toAnother{
+  color: #fff;
+  cursor: pointer;
+  text-align: right;
+}
+.el-button+.el-button{
+  margin-left: 0;
+  margin-top: 5px;
+}
+#customer-add .el-date-editor.el-input,#customer-add .el-date-editor.el-input__inner,#customer-add .el-select{
+  width: 185px;
+}
+.query-box .el-input{
+  margin-top: 10px;
+}
+.login-container{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #2d3a4b;
+}
