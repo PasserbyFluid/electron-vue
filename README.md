@@ -1,8 +1,8 @@
-# electron-vue-admin
+# 用户订单管理系统
 
-> An electron-vue project
+> 基于electron-vue-admin
 
-This is a vue electron admin project base on  [vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template) , and was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about this project can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+基于： [vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template) , and was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about this project can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
 
 ## Build Setup
 
@@ -23,12 +23,4 @@ npm run lint
 npm run pack
 ```
 ---
-
-
-## Demo
-
-![](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/electron-login.png)
-
-![](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/electron-admin.gif)
-
 
